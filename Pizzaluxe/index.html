@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pizzaluxe</title>
+<link rel="stylesheet" href="ventures/css/grid.css">
+<link rel="stylesheet" href="ventures/css/normalize.css">
+<link rel="stylesheet" href="resources/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<nav>
+<div class="row">
+<img src="resources/img/pizzaluxe logo.png" alt="pizzalux logo" class="logo">
+<ul class="main-nav">
+<li><a href="index.html">Home</a>
+<li><a href="#cities">Our Cities</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="myorder.html">My Order</a></li>
+</ul>
+</div>
+</nav>
+<div class="hero-text-box">
+<h1>Authentic <em>Pittsa</em>. <br>A taste of Italy.</h1>
+<a class="btn btn-ghost big-btn" href="#section-chef">See Menu</a>
+</div>
+</header>
+<section id="cities">
+<div class="row">
+<H2>our cities</H2>
+</div>
+<div class="col span 1-of-3 box">
+<img src="resources/img/rome2.jpg"alt="rome" width="350px" height="450px">
+<h3>Rome</h3>
+</div>
+<div class="col span 2-of-3 box">
+    <img src="resources/img/paris.jpg" alt="paris" width="350px" height="450px">
+    <h3>Paris</h3>
+</div>
+<div class="col span 3-of-3 box">
+    <img src="resources/img/london.jpg" alt="london" width="350px" height="450px">
+    <h3>London</h3>
+</div>
+</section>
+<section id="section-chef">
+<div class="chef-menu">
+            <h2>Chef's Special</h2>
+            <ul class="meals-showcase">
+                <li>
+                    <input type="checkbox" class="checkbox1">
+                    <label for="checkbox1"><img src="resources/img/mediterranean.jpg" class="meal-photo">
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox2">
+                    <label for="checkbox2"><img src="resources/img/pepperpassion.jpg" class="meal-photo"></label>
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox3">
+                    <label for="checkbox3"><img src="resources/img/sweetspicy.jpg" class="meal-photo">
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox4">
+                    <label for="checkbox4"><img src="resources/img/margherita.jpg" class="meal-photo">
+                    </label>
+                </li>
+            </ul>
+        </div>
+        </section>
+<section id="pittsa-menu">
+    <div class="pittsa-menu">
+    <p class="first-paragraph">Alternatively, you can personalise your pittsa below. </p>
+        <H2>create your pittsa</H2>
+        <form class="form" action="order.html" method="GET">
+            <div class="menu-item">
+                <h3>Size</h3>
+                <select name="list" class="pizza-size">
+                    <option value=""></option>
+                    <option value="small">Small -£10</option>
+                    <option value="medium">Medium -£13</option>
+                    <option value="large">Large -£16</option>
+                    <option value="extra large">X Large -£20</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <h3>Crust</h3>
+                <select name="list" class="pizza-crust">
+                    <option value=""></option>
+                    <option value="Plain ">Plain </option>
+                    <option value="Spicy ">Spicy </option>
+                    <option value="Garlic Butter ">Garlic Butter</option>
+                    <option value="Cheese Stuffed ">Cheese Stuffed</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <h3>Sauce</h3>
+                <select name="list" class="pizza-sauce">
+                    <option value=""></option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Barbecue ">Barbecue</option>
+                    <option value="White Sauce">White Sauce</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <h3>Toppings</h3>
+                <br>
+                <input type="checkbox" name="cheese" value="cheese">
+                <label for="cheese">Cheese</label>
+                <input type="checkbox" name="Sweetcorn" value="Sweetcorn">
+                <label for="Sweetcorn">Sweetcorn</label>
+                <input type="checkbox" name="Jalapeno" value="Jalapeno">
+                <label for="Jalapeno">Jalapeno</label>
+                <br><br>
+                <input type="checkbox" name="Olives" value="Olives">
+                <label for="Olives">Olives</label>
+                <input type="checkbox" name="Mushroom" value="Mushroom">
+                <label for="Mushroom">Mushroom</label>
+                <input type="checkbox" name="Onion" value="Onion">
+                <label for="Onion">Onion</label>
+                <br><br>
+                <input type="checkbox" name="Pineapple" value="Pineapple">
+                <label for="Pineapple">Pineapple</label>
+                <input type="checkbox" name="Chicken Tandoori" value="Chicken Tandoori">
+                <label for="Chicken Tandoori">Chicken Tandoori</label>
+                <input type="checkbox" name="pepperoni" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+                <br><br>
+                <button type="submit" class="confirm-order" href="myorder.html">Confirm Order</button>
+            </div>
+        </form>
+</section>
+</body>
+</html>
+
+

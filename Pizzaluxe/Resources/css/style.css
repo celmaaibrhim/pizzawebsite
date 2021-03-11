@@ -1,0 +1,289 @@
+
+/* ----------------------------------- */
+
+/* BASIC SETUP */
+
+/* ----------------------------------- */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+font-family: 'Lato', 'Arial', sans-serif;
+font-weight: 300;
+font-size: 20px;
+text-rendering: optimizeLegibility;
+}
+
+.logo{
+height: 100px;
+width: auto;
+float: left;
+margin-top: 20px;
+}
+
+/* ----------------------------------- */
+
+/* REUSABLE */
+
+/* ----------------------------------- */
+.row {
+max-width: 1140px;
+margin: 0 auto;   
+}
+section{
+padding: 100px 0;
+}
+/* ----------------------------------- */
+
+/* NAVS */
+
+/* ----------------------------------- */
+.main-nav{
+float: right;
+list-style: none;
+margin: 55px 40px 0 0;
+color: white;
+}
+
+.main-nav li{
+display: inline-block;
+margin-left: 40px;
+text-transform: uppercase;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+color: white;
+text-decoration: none;
+}
+
+.main-nav li a:hover { 
+padding-bottom: 5px;
+border-bottom: 3px solid #e67322 ;
+
+}
+/* ----------------------------------- */
+
+/* HEADINGS */
+
+/* ----------------------------------- */
+h1, h2, h4{
+margin-top: 0;
+margin-bottom: 20px;
+word-spacing:4px;
+letter-spacing: 2px;
+}
+h1{
+text-transform: uppercase;
+color:white;
+font-size: 240%;
+}
+h2{
+text-transform: uppercase;
+color: black;
+font-size: 180%;
+text-align: center;
+}
+
+h2::after{
+display: block;
+height: 2px;
+background-color:#e67322;
+content: "";
+width: 100px;
+margin: 0 auto;
+margin-top: 30px;
+}
+h3{
+text-align: center;
+}
+
+/*----PARAGRAPHS----*/
+.first-paragraph{
+line-height: 145%;
+width: 70%;
+margin-left: 15%;
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* ----------------------------------- */
+
+/* HEADER */
+
+/* ----------------------------------- */
+header {
+background-image: linear-gradient(rgba(0, 0, 0, 0.10), #000), url(../img/2.jpeg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.hero-text-box {
+position: absolute;
+width: 1140px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+/* ----------------------------------- */
+
+/* BUTTONS */
+
+/* ----------------------------------- */
+.big-btn{
+width: 250px;
+height: auto;
+text-align: center;
+}
+.btn:link,
+.btn:visited{
+display: inline-block;
+padding: 10px 30px;
+text-decoration: none;
+border-radius: 200px;
+border: 1px solid #e67322;
+transition: backgtound color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-ghost{
+color: #e67e22;       
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+background-color: #cf6d17;
+color: white;
+}
+/* ----------------------------------- */
+
+/* SECTIONS */
+
+/* ----------------------------------- */
+
+.box {
+margin-top: 10px;
+margin-left: 55px;
+margin-right: 40px;
+margin-bottom: 80px;
+}
+
+.chef-menu{
+margin-top: 80px;
+}
+
+.pittsa-menu{
+margin-top: 100px;
+background-color: rgb(223, 191, 217);
+height: 700px;
+width: 500px;
+top: 50%;
+left: 50%;
+top: 50%;
+left: 50%;
+transform: translate(85%,10%)
+
+}
+
+/* ----------------------------------- */
+
+/* MENU */
+
+/* ----------------------------------- */
+
+.menu-item {
+text-align: center;
+margin-top: 10px;
+}
+
+select {
+width: 152px;
+
+}
+
+.menu-item{
+margin-top: 20px;
+}
+
+/* ----------------------------------- */
+
+/* CHEF SPECIAL */
+
+/* ----------------------------------- */
+
+.section-chef{
+margin-top: 10px;
+}
+
+.meals-showcase{
+list-style: none;
+width: 100%;
+}
+.meals-showcase li{
+display: block;
+float: left;
+width: 25%;
+
+}
+
+.meal-photo {
+width: 100%;
+margin: 0;
+overflow: hidden;
+background-color: #000;
+}
+
+.meal-photo img{
+opacity: 0.7;
+width: 100%;
+height: auto;
+transform: scale(1.5);
+transition: transform 0.5s opacity 0.5s;
+}
+
+.meal-photo img:hover{
+opacity: 1;
+transform: scale(1.03);
+}
+
+.meal-photo1, 
+.meal-photo2, 
+.meal-photo3,
+.meal-photo4 {
+opacity: 0.7;
+width: 100%;
+height: auto;
+transform: scale(1.5);
+transition: transform 0.5s opacity 0.5s;
+}
+
+
+
+/* ----------------------------------- */
+
+/* Login Page */
+
+/* ----------------------------------- */
+
+.login{
+background-color: rgb(223, 191, 217,0.5);
+height: 400px;
+width: 450px;
+top: 50%;
+left: 50%;
+transform: translate(80%,10%);
+text-align: center;}
+
+.thisemail, .thispassword {
+text-align: center;
+width: 200px;
+}
+.thisemail {
+margin-left: 17px ;
+}
+.login-button{
+text-align: center;
+width: 80px;
+}
+
+
